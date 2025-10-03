@@ -22,7 +22,7 @@ class Player {
     };
     
     // Physics constants
-    this.SPEED = 8; // units per second (increased for more responsive movement)
+    this.SPEED = 100; // units per second (increased for more responsive movement)
     this.JUMP_FORCE = 8; // jump impulse force
     this.MOVE_FORCE_MULTIPLIER = 8; // Reduced for smoother movement
     this.MAX_HORIZONTAL_SPEED = 6; // Maximum horizontal speed to prevent sliding
