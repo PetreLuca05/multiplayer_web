@@ -1,0 +1,23 @@
+{
+  "name": "multiplayer-game",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npm run build",
+    "start": "npm start"
+  },
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  },
+  "addons": []
+}

@@ -1,0 +1,17 @@
+# Render deployment configuration
+# Copy this content to your Render dashboard
+
+# Build Command:
+npm run build
+
+# Start Command:
+npm start
+
+# Environment Variables:
+NODE_ENV=production
+PORT=10000
+
+# Advanced Settings:
+# Auto-Deploy: Yes
+# Health Check Path: /health
+# Root Directory: (leave empty)
